@@ -26,7 +26,7 @@ const SignCover = () => {
         <div className={styles.overlayContainer}>
           <div className={styles.overlay}>
             <div className={`${styles["overlayPanel"]} ${styles.leftOverlay}`}>
-              <img className={styles.logo} src="images\logo-pink.png" alt="" />
+              <img className={styles.logo} src="images\navinepal1.png" alt="" />
               <p>Already Have an Account?</p>
               <button
                 className={styles.coverButton}
@@ -36,7 +36,7 @@ const SignCover = () => {
               </button>
             </div>
             <div className={`${styles["overlayPanel"]} ${styles.rightOverlay}`}>
-              <img className={styles.logo} src="images\logo-pink.png" alt="" />
+              <img className={styles.logo} src="images\navinepal1.png" alt="" />
               <h5> Voting made Safer</h5>
               <p>Need to Create an Account?</p>
               <button

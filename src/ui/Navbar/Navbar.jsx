@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className={styles.logoCover}>
         <img
           className={styles.logo}
-          src="\images\navbarlogo.png"
+          src="\images\navinepal1.png"
           alt="decentral vote logo"
         />
       </div>

@@ -67,11 +67,11 @@ const SignIn = (props) => {
       <div className={styles.logoCover}>
         <img
           className={styles.logo}
-          src="\images\navbarlogo.png"
+          src="\images\navinepal1.png"
           alt="decentral vote logo"
         />
       </div>
-      <h4>Welcome To Decentral Vote!!</h4>
+      <h4>Welcome To NaviNepal!!</h4>
       <h7>Please Sign-In to your account</h7>
 
       <form onSubmit={onSubmitHandler}>
