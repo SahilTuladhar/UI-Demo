@@ -1,5 +1,5 @@
 import styles from "./Sidebar.module.css";
-import SidebarComponent from "../SiderbarComponent/SidebarComponent";
+import SidebarComponent from "../SidebarComponent/SidebarComponent";
 import SummarizeIcon from "@mui/icons-material/Summarize";
 import PollOutlinedIcon from "@mui/icons-material/PollOutlined";
 import PeopleAltOutlinedIcon from "@mui/icons-material/PeopleAltOutlined";

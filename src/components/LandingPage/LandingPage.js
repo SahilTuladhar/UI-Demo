@@ -2,10 +2,22 @@ import React from "react";
 import styles from "./LandingPage.module.css";
 import Navbar from "../../ui/Navbar/Navbar";
 import EastIcon from "@mui/icons-material/East";
-import ShieldOutlinedIcon from "@mui/icons-material/ShieldOutlined";
-import BorderClearOutlinedIcon from "@mui/icons-material/BorderClearOutlined";
-import SaveAsOutlinedIcon from "@mui/icons-material/SaveAsOutlined";
+import AcUnitOutlinedIcon from "@mui/icons-material/AcUnitOutlined";
+import ThermostatOutlinedIcon from "@mui/icons-material/ThermostatOutlined";
+import EqualizerOutlinedIcon from "@mui/icons-material/EqualizerOutlined";
 import { Link } from "react-router-dom";
+
+const getStartedClicked = () => {
+  window.location.href = "/map-page";
+};
+
+const onIceClicked = () => {
+  window.location.href = "/ice-graph-page";
+};
+
+const onTempClicked = () => {
+  window.location.href = "/temp-graph-page";
+};
 
 const LandingPage = () => {
   return (
@@ -24,7 +36,7 @@ const LandingPage = () => {
         </div>
 
         <Link to="/election-form">
-          <button className={styles.startButton}>
+          <button onClick={getStartedClicked} className={styles.startButton}>
             <p>Get Started</p>
             <EastIcon />
           </button>
@@ -32,20 +44,20 @@ const LandingPage = () => {
       </div>
 
       <div className={styles.featureCover}>
-        <div className={styles.feature}>
-          <p>Safe Voting</p>
+        <div className={styles.feature} onClick={onIceClicked}>
+          <p>Ice Melting Graph</p>
 
-          <ShieldOutlinedIcon className={styles.icon} />
+          <AcUnitOutlinedIcon className={styles.icon} />
+        </div>
+
+        <div className={styles.feature} onClick={onTempClicked}>
+          <p>Average Temperature Graph</p>
+          <ThermostatOutlinedIcon className={styles.icon} />
         </div>
 
         <div className={styles.feature}>
-          <p>Transparency</p>
-          <BorderClearOutlinedIcon className={styles.icon} />
-        </div>
-
-        <div className={styles.feature}>
-          <p>Immutability</p>
-          <SaveAsOutlinedIcon className={styles.icon} />
+          <p>Random Graph</p>
+          <EqualizerOutlinedIcon className={styles.icon} />
         </div>
       </div>
     </div>
