@@ -38,10 +38,11 @@
 }
 
 .electionInfo {
+  /* border: 1px solid black; */
   position: relative;
   bottom: 5%;
   width: 90%;
-  height: 21%;
+  height: 75%;
   right: 5%;
   margin: auto;
   border-radius: 15px;
@@ -68,9 +69,10 @@
   display: flex;
   left: 3%;
   width: 95%;
+  height: 100px;
   align-items: center;
   justify-content: space-between;
-  top: 10%;
+  top: -22%;
 }
 
 .electionInfoDown h3 {

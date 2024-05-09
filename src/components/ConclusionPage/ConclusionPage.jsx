@@ -25,12 +25,6 @@ const ConclusionPage = () => {
                     from various weather stations or remote sensing sources.
                   </h3>
                 </div>
-
-                <div className={styles.electionInfoDownRight}>
-                  <div className={styles.electionDate}>
-                    <AcUnitOutlinedIcon className={styles.icon} />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
