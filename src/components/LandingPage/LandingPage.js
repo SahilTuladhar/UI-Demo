@@ -4,7 +4,8 @@ import Navbar from "../../ui/Navbar/Navbar";
 import EastIcon from "@mui/icons-material/East";
 import AcUnitOutlinedIcon from "@mui/icons-material/AcUnitOutlined";
 import ThermostatOutlinedIcon from "@mui/icons-material/ThermostatOutlined";
-import EqualizerOutlinedIcon from "@mui/icons-material/EqualizerOutlined";
+import InfoIcon from "@mui/icons-material/Info";
+
 import { Link } from "react-router-dom";
 
 const getStartedClicked = () => {
@@ -17,6 +18,10 @@ const onIceClicked = () => {
 
 const onTempClicked = () => {
   window.location.href = "/temp-graph-page";
+};
+
+const onConcludeClicked = () => {
+  window.location.href = "/conclusion-page";
 };
 
 const LandingPage = () => {
@@ -55,9 +60,9 @@ const LandingPage = () => {
           <ThermostatOutlinedIcon className={styles.icon} />
         </div>
 
-        <div className={styles.feature}>
-          <p>Random Graph</p>
-          <EqualizerOutlinedIcon className={styles.icon} />
+        <div className={styles.feature} onClick={onConcludeClicked}>
+          <p>Conclusion</p>
+          <InfoIcon className={styles.icon} />
         </div>
       </div>
     </div>

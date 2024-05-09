@@ -1,9 +1,9 @@
-import styles from "./IceGraphPage.module.css";
+import styles from "./ConclusionPage.module.css";
 import Sidebar from "../../ui/Sidebar/Sidebar";
 import Navbar from "../../ui/Navbar/Navbar";
 import AcUnitOutlinedIcon from "@mui/icons-material/AcUnitOutlined";
 
-const IceGraphPage = () => {
+const ConclusionPage = () => {
   return (
     <>
       <Navbar />
@@ -14,7 +14,7 @@ const IceGraphPage = () => {
           <div className={styles.pageContentLeft}>
             <div className={styles.electionInfo}>
               <div className={styles.electionInfoUp}>
-                <h2>Ice Melting Graph</h2>
+                <h2>Conclusion</h2>
               </div>
               <div className={styles.electionInfoDown}>
                 <div className={styles.electionInfoDownLeft}>
@@ -33,9 +33,6 @@ const IceGraphPage = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.pieChartCover}>
-              {/* {<Chart id="chart" result={voteresult} />} */}
-            </div>
           </div>
         </div>
       </div>
@@ -43,4 +40,4 @@ const IceGraphPage = () => {
   );
 };
 
-export default IceGraphPage;
+export default ConclusionPage;
