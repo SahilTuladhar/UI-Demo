@@ -6,6 +6,7 @@ import AcUnitOutlinedIcon from "@mui/icons-material/AcUnitOutlined";
 import ThermostatOutlinedIcon from "@mui/icons-material/ThermostatOutlined";
 import InfoIcon from "@mui/icons-material/Info";
 
+
 import { Link } from "react-router-dom";
 
 const getStartedClicked = () => {

@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@arcgis/core": "^4.29.10",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@esri/calcite-components": "^2.8.0",
     "@mui/icons-material": "^5.15.17",
     "@mui/material": "^5.15.17",
     "@testing-library/jest-dom": "^5.17.0",

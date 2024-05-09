@@ -101,7 +101,7 @@
 
 .pieChartCover {
   position: relative;
-  height: 60vh; /* Adjust the height as needed */
+  height: 60vh; /* Set the height of the map container */
   margin: auto;
   border-radius: 15px;
   display: flex;

@@ -1,7 +1,10 @@
+// MapPage.js
+import React from "react";
 import styles from "./MapPage.module.css";
 import Sidebar from "../../ui/Sidebar/Sidebar";
 import Navbar from "../../ui/Navbar/Navbar";
 import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
+import MapComponent from "../MapContent/MapContent";
 
 const MapPage = () => {
   return (
@@ -25,7 +28,7 @@ const MapPage = () => {
               </div>
             </div>
             <div className={styles.pieChartCover}>
-              {/* {<Chart id="chart" result={voteresult} />} */}
+              <MapComponent />
             </div>
           </div>
         </div>
