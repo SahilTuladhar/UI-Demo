@@ -2,7 +2,7 @@
   /* border: 1px solid red; */
   height: 70vh;
   display: flex;
-  background-image: url("../../../public/images/nepal.png");
+  background-image: url("../../../public/images/mountain.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -118,4 +118,8 @@
   to {
     transform: translateY(0);
   }
+}
+
+h5 {
+  font-size: 25px;
 }

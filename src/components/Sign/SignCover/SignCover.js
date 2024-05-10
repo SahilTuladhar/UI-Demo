@@ -37,7 +37,7 @@ const SignCover = () => {
             </div>
             <div className={`${styles["overlayPanel"]} ${styles.rightOverlay}`}>
               <img className={styles.logo} src="images\navinepal1.png" alt="" />
-              <h5> Voting made Safer</h5>
+              <h5> Mapping Nepal's Beauty</h5>
               <p>Need to Create an Account?</p>
               <button
                 className={styles.coverButton}

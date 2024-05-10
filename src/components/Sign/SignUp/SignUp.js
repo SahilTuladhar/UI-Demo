@@ -109,7 +109,7 @@ const SignUp = (props) => {
           alt="decentral vote logo"
         />
       </div>
-      <h4>Welcome To Decentral Vote!!</h4>
+      <h4>Welcome To NaviNepal!!</h4>
       <h7>Please Sign-In to your account</h7>
       <form onSubmit={formSubmitHandler}>
         <div

@@ -4,8 +4,7 @@ import Navbar from "../../ui/Navbar/Navbar";
 import EastIcon from "@mui/icons-material/East";
 import AcUnitOutlinedIcon from "@mui/icons-material/AcUnitOutlined";
 import ThermostatOutlinedIcon from "@mui/icons-material/ThermostatOutlined";
-import InfoIcon from "@mui/icons-material/Info";
-
+import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 
 import { Link } from "react-router-dom";
 
@@ -31,13 +30,16 @@ const LandingPage = () => {
       <div className={styles.imageCover}>
         <Navbar />
         <div className={styles.body}>
-          <h1 className={styles.bodyTitle}>Decentralized Safe Voting System</h1>
+          <h1 className={styles.bodyTitle}>
+            NaviNepal : Mapping Nepal's Beauty
+          </h1>
           <h5 className={styles.bodyContent}>
-            Our decentralized voting application utilizes secure blockchain
-            technology, ensuring transparent and authentic voting experiences.
-            Empowering users, it guarantees privacy, trust, and direct
-            engagement in democratic processes, revolutionizing the way we
-            participate in elections.
+            This web platform provides an interactive exploration of climate
+            change using data visualizations. Witness the concerning trends in
+            glacial shrinkage and rising global temperatures. Delve into the
+            scientific basis of climate change, exploring its causes and
+            far-reaching consequences. Discover actionable steps you can take to
+            contribute to solutions.
           </h5>
         </div>
 
@@ -62,8 +64,8 @@ const LandingPage = () => {
         </div>
 
         <div className={styles.feature} onClick={onConcludeClicked}>
-          <p>Conclusion</p>
-          <InfoIcon className={styles.icon} />
+          <p>Results</p>
+          <MapOutlinedIcon className={styles.icon} />
         </div>
       </div>
     </div>

@@ -19,10 +19,11 @@ const TempGraphPage = () => {
               <div className={styles.electionInfoDown}>
                 <div className={styles.electionInfoDownLeft}>
                   <h3>
-                    The average temperature graph is a representation of
-                    temperature data over a specific geographic area and time
-                    period. This graph is typically created using data collected
-                    from various weather stations or remote sensing sources.
+                    Global warming is accelerating. This graph shows the average
+                    temperature anomaly (difference from 1850-1900 baseline)
+                    rising steadily. Data suggests 2023 may be the first year
+                    exceeding 1.5 degrees Celsius above the baseline,
+                    highlighting the urgency of climate action.
                   </h3>
                 </div>
 
@@ -34,7 +35,7 @@ const TempGraphPage = () => {
               </div>
             </div>
             <div className={styles.pieChartCover}>
-              {/* {<Chart id="chart" result={voteresult} />} */}
+              <img src="/images/AvgTemp.png" alt="" />
             </div>
           </div>
         </div>

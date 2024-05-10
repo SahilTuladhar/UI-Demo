@@ -42,7 +42,7 @@
   position: relative;
   bottom: 5%;
   width: 90%;
-  height: 75%;
+  height: 90%;
   right: 5%;
   margin: auto;
   border-radius: 15px;
@@ -54,7 +54,7 @@
 .electionInfoUp {
   /* border: 1px solid black; */
   padding: 1%;
-  height: 30%;
+  height: 1%;
 }
 
 .electionInfoUp h2 {
@@ -65,14 +65,17 @@
 }
 
 .electionInfoDown {
-  position: relative;
   display: flex;
-  left: 3%;
-  width: 95%;
-  height: 100px;
+  position: relative;
+
+  top: 3%;
   align-items: center;
-  justify-content: space-between;
-  top: -22%;
+  justify-content: center;
+  height: 50vh; /* Adjust the height as needed */
+  margin: auto;
+  border-radius: 15px;
+  width: 95%;
+  background-color: rgb(225, 226, 226);
 }
 
 .electionInfoDown h3 {
@@ -80,9 +83,31 @@
   opacity: 80%;
 }
 
-.electionInfoDownLeft {
-  /* border: 1px solid red; */
-  flex: 90%;
+.top,
+.bottom {
+  position: relative;
+  width: 100%;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.top img,
+.bottom img {
+  position: relative;
+  left: 12%;
+  width: 75%; /* Ensure the image takes up 100% of the container width */
+  height: 70%; /* Ensure the image takes up 100% of the container height */
+  object-fit: fill; /* Cover the container while maintaining aspect ratio */
+  border-radius: 15px; /* Optional: Add border-radius to match the container */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Add transitions for transform, box-shadow, and opacity */
+  cursor: pointer; /* Change cursor to indicate clickable */
+}
+
+.top img:hover,
+.bottom img:hover {
+  transform: scale(1.05); /* Scale the image on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow on hover */
+  opacity: 0.9; /* Reduce opacity on hover */
 }
 
 .electionInfoDownRight {

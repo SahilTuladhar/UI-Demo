@@ -14,16 +14,11 @@ const ConclusionPage = () => {
           <div className={styles.pageContentLeft}>
             <div className={styles.electionInfo}>
               <div className={styles.electionInfoUp}>
-                <h2>Conclusion</h2>
+                <h2>Results</h2>
               </div>
               <div className={styles.electionInfoDown}>
-                <div className={styles.electionInfoDownLeft}>
-                  <h3>
-                    The average temperature graph is a representation of
-                    temperature data over a specific geographic area and time
-                    period. This graph is typically created using data collected
-                    from various weather stations or remote sensing sources.
-                  </h3>
+                <div className={styles.top}>
+                  <img src="/images/nepgraph.jpg" alt="" />
                 </div>
               </div>
             </div>

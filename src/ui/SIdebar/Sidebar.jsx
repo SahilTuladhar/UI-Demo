@@ -2,7 +2,7 @@ import styles from "./Sidebar.module.css";
 import SidebarComponent from "../SidebarComponent/SidebarComponent";
 import AcUnitOutlinedIcon from "@mui/icons-material/AcUnitOutlined";
 import ThermostatOutlinedIcon from "@mui/icons-material/ThermostatOutlined";
-import InfoIcon from "@mui/icons-material/Info";
+import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import { Link } from "react-router-dom";
 
 const Sidebar = (props) => {
@@ -24,7 +24,10 @@ const Sidebar = (props) => {
         </Link>
 
         <Link to="/conclusion-page">
-          <SidebarComponent optionTitle="Conclusion" iconTitle={<InfoIcon />} />{" "}
+          <SidebarComponent
+            optionTitle="Results"
+            iconTitle={<MapOutlinedIcon />}
+          />{" "}
         </Link>
       </div>
     </div>

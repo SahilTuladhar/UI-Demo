@@ -6,6 +6,7 @@ import Navbar from "../../ui/Navbar/Navbar";
 import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
 import MapComponent from "../MapContent/MapContent";
 
+
 const MapPage = () => {
   return (
     <>
@@ -17,14 +18,7 @@ const MapPage = () => {
           <div className={styles.pageContentLeft}>
             <div className={styles.electionInfo}>
               <div className={styles.electionInfoUp}>
-                <h2>Map</h2>
-              </div>
-              <div className={styles.electionInfoDown}>
-                <h3>Salina Gurung</h3>
-                <div className={styles.electionDate}>
-                  <CalendarTodayOutlinedIcon className={styles.icon} />
-                  <p>09-05-2024</p>
-                </div>
+                <h2>World Map</h2>
               </div>
             </div>
             <div className={styles.pieChartCover}>

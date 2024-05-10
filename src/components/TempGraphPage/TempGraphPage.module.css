@@ -116,9 +116,31 @@
   display: flex;
   right: 5%;
   flex-direction: column;
-  width: 90%;
+  width: 70%;
   bottom: 2%;
   background-color: rgb(225, 226, 226);
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.pieChartCover img {
+  position: relative;
+  border-radius: 25px;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  object-fit: fill;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Add transitions for transform, box-shadow, and opacity */
+  cursor: pointer; /* Change cursor to indicate clickable */
+}
+
+.pieChartCover img:hover {
+  transform: scale(1.05); /* Scale the image on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow on hover */
+  opacity: 0.9;
 }
 
 .pieChartCover.empty {
